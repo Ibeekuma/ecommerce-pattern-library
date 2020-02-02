@@ -1,0 +1,21 @@
+permalink: pretty
+theme: jekyll_patternbot
+Patternbot:
+  title: "ArtBay"
+  description:
+    ArtBay is a free gallery to sell art and buy art, representing many thousands of artists. No membership fees. No commission. You can sell originals, prints, and also most importantly, they guide you through marketing your art and getting more sales. It’s also quick and easy to set up.
+  font_url: href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Dosis:400,700&display=swap" rel="stylesheet"
+  colors:
+    background: "--color-secondary-light"
+    accent: "--color-primary-dark"
+    patterns:
+      brand.logos: "--color-primary-light"
+  rationales:
+    typefaces.primary:
+      Proxima Nova was selected because it has many weights and style variations and it works well for screens.
+    typeface.secondary:
+      Albertan Pro was selected because it is a san-serif and it works well for screens.
+    colors.primary:
+      They should be used for text and foregrounds.
+    colors.secondary:
+      They should be used for backgrounds.
