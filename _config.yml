@@ -4,7 +4,7 @@ patternbot:
   title: "ArtBay"
   description: |
     ArtBay is a free gallery to sell art and buy art, representing many thousands of artists. No membership fees. No commission. You can sell originals, prints, and also most importantly, they guide you through marketing your art and getting more sales. It’s also quick and easy to set up.
-  font_url: "https://fonts.googleapis.com/css?family=Alegreya+Sans|Dosis:400,700&display=swap"
+  font_url: "https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif&display=swap"
   colors:
     background: "--color-secondary-light"
     accent: "--color-primary-dark"
@@ -12,9 +12,9 @@ patternbot:
       brand.logos: "--color-primary-light"
   rationales:
     typefaces.primary: |
-      Alegreya Sans was selected because it has many weights and style variations and it works well for screens.
+      PT Serif was selected because it has many weights and style variations and it works well for screens.
     typeface.secondary: |
-      source Code Pro was selected because it is a san-serif and it works well for screens.
+      Open Sans was selected because it is a san-serif and it works well for screens.
     colors.primary: |
       They should be used for text and foregrounds.
     colors.secondary: |
