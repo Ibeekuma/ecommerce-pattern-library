@@ -11,6 +11,7 @@
 
 html {
   font-family: var(--font-primary);
+  background-color: white;
 }
 
 h1 {
@@ -19,12 +20,12 @@ h1 {
 }
 
 h2 {
-  color: var(--color-primary-medium);
+  color: var(--color-primary-light);
   font-weight: 500;
 }
 
 p {
-  color: var(--color-primary-medium);
+  color: var(--color-primary-light);
 }
 
 a {
@@ -33,9 +34,9 @@ a {
 }
 
 a:hover, a:focus {
-  color: var(--color-white);
+  color: white;
 }
 
 mark {
-  background-color: var(--color-white);
+  background-color: white;
 }
