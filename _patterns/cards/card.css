@@ -1,3 +1,33 @@
 .card {
-  color: white;
+  color: var(--color-accent);
+}
+
+.iconcard {
+  background-color: var(--color-black);
+  border-radius: 7px;
+  transition: all .15s ease;
+}
+
+.info {
+  opacity: 0;
+  transition: all .15s ease;
+}
+
+.infotext {
+  color: var(--color-light-grey);
+  line-height: 2rem;
+}
+
+.iconcard:focus > .info,
+.iconcard:hover > .info {
+  opacity: 1;
+}
+
+.iconcard:focus, .iconcard:hover {
+  background-color: var(--color-black);
+}
+
+.iconcard:focus > .imgcard,
+.iconcard:hover > .imgcard {
+  opacity: 0;
 }
