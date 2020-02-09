@@ -35,7 +35,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: var(color-neutral-beige);
+  color: var(--color-neutral-beige);
 }
 
 mark {
