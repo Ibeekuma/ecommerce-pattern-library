@@ -22,5 +22,5 @@
 .btn-light{
   background-color: var(--color-secondary);
   border-color: var(--color-secondary);
-  color:var(--color-primary-dark);
+  color: var(--color-primary-dark);
 }

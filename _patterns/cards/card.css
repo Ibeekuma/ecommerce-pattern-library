@@ -3,7 +3,7 @@
 }
 
 .iconcard {
-  background-color: var(--color-black);
+  background-color: var(--color-accent);
   border-radius: 7px;
   transition: all .15s ease;
 }
@@ -14,7 +14,7 @@
 }
 
 .infotext {
-  color: var(--color-light-grey);
+  color: var(--color-primary);
   line-height: 2rem;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .iconcard:focus, .iconcard:hover {
-  background-color: var(--color-black);
+  background-color: var(--color-accent);
 }
 
 .iconcard:focus > .imgcard,
