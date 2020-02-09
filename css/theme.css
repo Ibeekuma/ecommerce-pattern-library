@@ -1,16 +1,18 @@
 :root {
-  --color-primary-light: #0022D4;
-  --color-primary: gold;
-  --color-primary-dark: #D90718;
-  --color-secondary: #4DAD0E;
+  --color-primary-light: #7A8FE5;
+  --color-primary: #0022D4;
+  --color-primary-dark: #051751;
+  --color-secondary: #D90718;
   --color-neutral-beige: #E3D511;
-  --color-accent: #FFFFFF;
+  --color-accent: #824EC6;
+  --color-white: #FFFFFF;
   --font-primary:"Alegreya Sans","Trebuchet Ms", Arial,sans-serif;
   --font-secondary: "source Code Pro", Menlo, Consolas, monospace;
 }
 
 html {
   font-family: var(--font-primary);
+  background-color: var(--color-white);
 }
 
 h1 {
@@ -33,9 +35,9 @@ a {
 }
 
 a:hover, a:focus {
-  color: white;
+  color: var(--color-white);
 }
 
 mark {
-  background-color: white;
+  background-color: var(--color-white);
 }
