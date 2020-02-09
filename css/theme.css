@@ -1,10 +1,10 @@
 :root {
   --color-primary-light: #FFFFFF;
-  --color-primary: #A60303;
-  --color-primary-dark: #051751;
+  --color-primary: #FFFFFF;
+  --color-primary-dark: #FFFFFF;
   --color-secondary: #D90718;
   --color-secondary-light: #0022D4;
-  --color-secondary-dark: #F7B2BE;
+  --color-secondary-dark: #A60303;
   --color-neutral-beige: #E3D511;
   --color-accent: #824EC6;
   --font-primary:"Alegreya Sans","Trebuchet Ms", Arial,sans-serif;
