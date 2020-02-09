@@ -1,5 +1,5 @@
 :root {
-  --color-primary-light: #7A8FE5;
+  --color-primary-light: #FFFFFF;
   --color-primary: #0022D4;
   --color-primary-dark: #051751;
   --color-secondary: #D90718;
@@ -7,7 +7,6 @@
   --color-secondary-dark: #54040E;
   --color-neutral-beige: #E3D511;
   --color-accent: #824EC6;
-  --color-white: #FFFFFF;
   --font-primary:"Alegreya Sans","Trebuchet Ms", Arial,sans-serif;
   --font-secondary: "source Code Pro", Menlo, Consolas, monospace;
 }
@@ -17,12 +16,12 @@ html {
 }
 
 h1 {
-  color: var(--color-primary);
+  color: var(--color-primary-light);
   font-weight: 500;
 }
 
 h2 {
-  color: var(--color-primary-light);
+  color: var(--color-primary);
   font-weight: 500;
 }
 
@@ -31,14 +30,14 @@ p {
 }
 
 a {
-  color: var(--color-primary);
+  color: var(--color-secondary);
   transition: all .15s linear;
 }
 
 a:hover, a:focus {
-  color: var(--color-white);
+  color: var(color-neutral-beige);
 }
 
 mark {
-  background-color: var(--color-white);
+  background-color: var(--color-primary-light);
 }
