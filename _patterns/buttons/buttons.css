@@ -1,6 +1,6 @@
 .btn {
   background-color: var(--color-primary);
-  border-color: var(--color-secondary-dark);
+  border-color: var(--color-primary);
   color: var(--color-secondary-light);
 }
 
@@ -16,11 +16,11 @@
 
 .btn-ghost:hover{
   background-color: transparent;
-  color: var(--color-secondary-light);
+  color: var(--color-secondary-dark);
 }
 
 .btn-light{
   background-color: var(--color-secondary);
   border-color: var(--color-secondary);
-  color:var(--color-primary-dark)
+  color:var(--color-primary-dark);
 }
