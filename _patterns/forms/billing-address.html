@@ -1,0 +1,107 @@
+<form class="max-length island" method="post" action="#" novalidate>
+  <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    <h3 class="push-0">
+      <i class="icon i-32"><svg><use xlink:href="/images/icons.svg#error" /></svg></i>
+      <span class="icon-label">There are items that require your attention</span>
+    </h3>
+  </div>
+
+  <fieldset>
+    <legend class="push-1-4 peta">Billing address</legend>
+    <div class="push-1-2 pad-t-1-2">
+      <input type="checkbox" id="agree" required aria-describedby="agree-error">
+      <label for="agree">The same as shipping addres</label>
+    </div>
+    <div class="push-1-2">
+      <label for="full-name">Full name</label>
+      <input type="text" id="full-name" required aria-describedby="fullname-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="/images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please provide a name</span>
+      </p>
+    </div>
+
+    <div class="grid">
+      <div class="unit xs-2-3 sidespace">
+        <label for="address">Address</label>
+        <input type="text" id="address" required aria-describedby="address-error">
+        <p class="error-message milli island-1-4 push-0" id="name-error">
+          <i class="icon i-16"><svg><use xlink:href="/images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide an address</span>
+        </p>
+      </div>
+
+      <div class="unit xs-1-3">
+        <label for="apt">Apt, suite</label>
+        <input type="text" id="apt" aria-describedby="apt-error">
+        <p class="error-message milli island-1-4 push-0" id="name-error">
+          <i class="icon i-16"><svg><use xlink:href="/images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide apt, suit number</span>
+        </p>
+      </div>
+
+    </div>
+
+    <div class="push-1-2">
+      <label class="inline-block pad-b-1-4" for="city">City</label>
+      <input type="text" id="city" required aria-describedby="city-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="/images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please provide a city</span>
+      </p>
+
+    <div class="grid">
+
+      <div class="unit xs-1-3 sidespace">
+        <label for="country">Country</label>
+        <input type="text" id="country" required aria-describedby="country-error">
+        <p class="error-message milli island-1-4 push-0" id="name-error">
+          <i class="icon i-16"><svg><use xlink:href="/images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide country name</span>
+        </p>
+      </div>
+
+      <div class="unit xs-1-3 sidespace">
+        <label for="province">Province</label>
+        <select class="push-1-4" id="province" required size="13" aria-describedby="province-error">
+          <option>Alberta</option>
+          <option>British Columbia</option>
+          <option>Manitoba</option>
+          <option>New Brunswick</option>
+          <option>Newfoundland &amp; Labrador</option>
+          <option>Northwest Territories</option>
+          <option>Nova Scotia</option>
+          <option>Nunavut</option>
+          <option>Ontario</option>
+          <option>Prince Edward Island</option>
+          <option>Québec</option>
+          <option>Saskatchewan</option>
+          <option>Yukon</option>
+        </select>
+        <p class="error-message milli island-1-4 push-0" id="name-error">
+          <i class="icon i-16"><svg><use xlink:href="/images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide Province name</span>
+        </p>
+      </div>
+
+      <div class="unit xs-1-3">
+        <label for="postalcode">Postal code</label>
+        <input maxlength="7" type="text" id="postalcode" required aria-describedby="postalcode-error">
+        <p class="error-message milli island-1-4 push-0" id="name-error">
+          <i class="icon i-16"><svg><use xlink:href="/images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide postal code</span>
+        </p>
+      </div>
+
+    </div>
+
+    <div class="pad-t-1-2">
+      <button class="btn" type="submit">Next</button>
+    </div>
+  </fieldset>
+</form>
+
+<script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+
+</body>
+</html>

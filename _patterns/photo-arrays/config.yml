@@ -1,0 +1,10 @@
+title: "photo-arrays"
+description: |
+  Photo arrays should be used to arrange the different photos for each product.
+
+patterns:
+  Product-photos:
+    title: "Product-photos"
+    description: |
+      Default to using the product-photos. Should be used to arrange the different photos for each product?
+    widith: "12em"

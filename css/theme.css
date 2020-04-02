@@ -25,7 +25,17 @@ h2 {
   font-weight: 500;
 }
 
+h3 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary-light);
+}
+
 p {
+  color: var(--color-primary-light);
+}
+
+ul {
+  font-family: var(--font-secondary);
   color: var(--color-primary-light);
 }
 

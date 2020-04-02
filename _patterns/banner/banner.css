@@ -1,0 +1,28 @@
+.banner-home {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-content {
+  position: absolute;
+  width: 100%;
+  max-width: 30em;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.search-input {
+  border-color: #41ad49;
+  background-position: .2em center;
+  background-size: 1.2em auto;
+}
+
+.search-btn {
+  background-image: linear-gradient(to bottom, #41ad49, #41ad49);
+  border-color: #41ad49;
+}
+
+.search-label {
+  text-align: right;
+}

@@ -1,0 +1,18 @@
+title: "Banner"
+description: |
+  Buttons should be used in situations where a dramatic, obvious action is required. Try not to over use buttons because they should be the primary call-to-action for a screen.
+
+patterns:
+  banner:
+    fields:
+      - name: icons
+        type: string
+        example: "ruby"
+      - name: button_text
+        type: string
+        example: "Sign in"
+        required: false
+      - name: button_url
+        type: url
+        example: "/login/"
+        required: false

@@ -1,0 +1,9 @@
+title: "forms"
+description: |
+  The form fields are used in the checkout page and sellers login page. They are made to be as efficient and user friendly as possible each with the necessary error fields if someone should make a mistake.
+
+patterns:
+  customer-info:
+    title: "customer-info"
+    description: |
+      The customers info collects name, email and phone number of customer.

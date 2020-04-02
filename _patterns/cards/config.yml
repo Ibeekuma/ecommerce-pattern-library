@@ -1,0 +1,22 @@
+title: "Cards"
+description: |
+  Cards should be used in situations where a dramatic, obvious action is required. Try not to over use buttons because they should be the primary call-to-action for a screen.
+
+patterns:
+  basic-card:
+    title: "basic-card"
+    description: |
+      Default to using the basic card. It should always be used in the front of light backgrounds.
+    widith: "12em"
+  icon-card:
+    title: "Icon-card"
+    description: |
+     The icon card is specifically for icons, where it will be placed in front of busy images.
+  icon-card:
+    title: "Image-card"
+    description: |
+       The image card is specifically for icons, where it will be placed in front of busy images.
+  product-info:
+    title: "Product infor"
+    description: |
+      The icon card is specifically for icons, where it will be placed in front of busy images.

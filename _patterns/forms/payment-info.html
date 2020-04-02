@@ -1,0 +1,58 @@
+<form class="max-length island" method="post" action="#" novalidate>
+  <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    <h3 class="push-0">
+      <i class="icon i-32"><svg><use xlink:href="/images/icons.svg#error" /></svg></i>
+      <span class="icon-label">There are items that require your attention</span>
+    </h3>
+  </div>
+
+  <fieldset>
+    <legend class="push-1-4 peta">Payment info</legend>
+    <div class="push-1-2">
+      <label for="full-name">Cardholder name</label>
+      <input type="text" id="full-name" required aria-describedby="fullname-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="/images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please provide a name</span>
+      </p>
+    </div>
+
+    <div class="push-1-2">
+      <label for="cardnumber">Card number</label>
+      <input type="text" id="cardnumber" required aria-describedby="cardnumber-error">
+      <p class="error-message milli island-1-4 push-0" id="name-error">
+        <i class="icon i-16"><svg><use xlink:href="/images/icons.svg#error" /></svg></i>
+        <span class="icon-label">Please provide cardnumber</span>
+      </p>
+    </div>
+
+    <div class="grid">
+      <div class="unit xs-1-2 sidespace">
+        <label for="text">Expiry date</label>
+        <input type="text" id="text" required aria-describedby="expiry-error">
+        <p class="error-message milli island-1-4 push-0" id="name-error">
+          <i class="icon i-16"><svg><use xlink:href="/images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide date</span>
+        </p>
+      </div>
+
+      <div class="unit xs-1-2">
+        <label for="cvv">CVV</label>
+        <input maxlength="3" type="text" id="cvv" required aria-describedby="cvv-error">
+        <p class="error-message milli island-1-4 push-0" id="name-error">
+          <i class="icon i-16"><svg><use xlink:href="/images/icons.svg#error" /></svg></i>
+          <span class="icon-label">Please provide cvv</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="pad-t-1-2">
+      <button class="btn" type="submit">Pay</button>
+    </div>
+  </fieldset>
+</form>
+
+<script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+
+</body>
+</html>

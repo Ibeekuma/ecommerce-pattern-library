@@ -1,0 +1,23 @@
+title: "Buttons"
+description: |
+  Buttons should be used in situations where a dramatic, obvious action is required. Try not to over use buttons because they should be the primary call-to-action for a screen.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      Default to using the basic button. It should always be used in the front of light backgrounds.
+    widith: "12em"
+  ghost:
+    title: "Ghost"
+    description: |
+     The ghost button is specifically for banners, where it will be placed in front of busy images.
+    background: "-- colour-primary-light"
+  light:
+    fields:
+      - name: text
+        type: string
+        example: "Sign in"
+      - name: url
+        type: url
+        example: "/login/"

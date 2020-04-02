@@ -1,0 +1,18 @@
+.list {
+  text-align: right;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  transition: all .15s ease;
+  color: var(--color-primary-light);
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+header {
+  background-color: var(--color-secondary-light);
+}

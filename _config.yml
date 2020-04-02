@@ -9,7 +9,7 @@ patternbot:
     background: "--color-secondary-light"
     accent: "--color-primary-dark"
     patterns:
-      brand.logos: "--color-primary-light"
+      brand.logos: "--color-secondary-light"
   rationales:
     typefaces.primary: |
       PT Serif was selected because it has many weights and style variations and it works well for screens.
@@ -19,3 +19,19 @@ patternbot:
       They should be used for text and foregrounds.
     colors.secondary: |
       They should be used for backgrounds.
+  layouts:
+    default: |
+      The default layour should be used for almost every page, it includes the website's primary header & footer.
+    products: |
+      This will be the starter page for your products listing.
+    login: |
+      This will be the starter page for your products listing.
+collections:
+  products:
+    output: true
+
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product
